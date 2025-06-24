@@ -1,0 +1,30 @@
+.body {
+    text-align: center;
+    background-color: #93d3e3;
+}
+
+.headings{
+    color: #2C3E50;
+    font-size: 70px;
+}
+
+.item {
+    display: inline;
+    background-color: #2ECC71;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.item:hover {
+    background-color: #7ece9f;
+}
